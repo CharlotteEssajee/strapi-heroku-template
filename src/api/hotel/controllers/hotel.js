@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  hotelroom controller
+ *  hotel controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::hotelroom.hotelroom');
+module.exports = createCoreController('api::hotel.hotel');

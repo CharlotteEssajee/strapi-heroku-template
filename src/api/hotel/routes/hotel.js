@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * hotelroom router.
+ * hotel router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::hotelroom.hotelroom');
+module.exports = createCoreRouter('api::hotel.hotel');
